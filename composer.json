@@ -1,0 +1,30 @@
+{
+    "name": "softmedialabs/laravel-global-scope",
+    "description": "A laravel package for make global scope",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ach Miftahul Rizky",
+            "email": "tizqy.miftaqul77@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Softmedialabs\\LaravelGlobalScope\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.8 || ^6.0 || ^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softmedialabs\\LaravelGlobalScope\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

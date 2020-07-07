@@ -16,7 +16,7 @@ composer require softmedialabs/laravel-global-scope
 
 namespace App;
 
-use App\Scopes\YourScope;
+use App\Scopes\AgeScope;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
@@ -39,4 +39,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+```softmedialabs/laravel-global-scope``` is licenced under the MIT License (MIT). Please see the [license file](https://github.com/softmedialabs/laravel-global-scope/blob/master/LICENSE) for more information.

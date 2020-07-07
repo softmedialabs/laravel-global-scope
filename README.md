@@ -16,7 +16,7 @@ composer require softmedialabs/laravel-global-scope
 
 namespace App;
 
-use App\Scopes\AgeScope;
+use App\Scopes\YourScope;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model

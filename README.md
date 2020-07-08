@@ -11,26 +11,8 @@ composer require softmedialabs/laravel-global-scope
 
 ## Usage
 
-```php
-<?php
-
-namespace App;
-
-use App\Scopes\AgeScope;
-use Illuminate\Database\Eloquent\Model;
-
-class User extends Model
-{
-    /**
-     * The "booted" method of the model.
-     *
-     * @return void
-     */
-    protected static function booted()
-    {
-        static::addGlobalScope(new YourScope);
-    }
-}
+```bash
+php artisan make:scope AgeScope
 ```
 
 ## Contributing
